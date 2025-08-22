@@ -165,7 +165,7 @@ class ChatbotAssistant:
 
 
 def get_stocks():
-    stocks = {'Apple','Nvidia','Meta','Microsoft','Amazon','Samsung'}
+    stocks = ['Apple','Nvidia','Meta','Microsoft','Amazon','Samsung']
     print( random.sample(stocks,3))
 
 
